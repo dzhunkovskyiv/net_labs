@@ -6,7 +6,7 @@ import numpy as np
 adjacency_matr = []
 list_of_adj = []
 list_to_draw = [] #list of (i, j) that will be used to draw net
-n = 20
+n = random()*10###################################################### setting number of net's edges
 
 for i in range(n):
     for j in range(n):
